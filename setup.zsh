@@ -2,6 +2,7 @@
 brew analytics off
 brew bundle 
 
+source sdkman/setup.zsh
 source terminal/setup.zsh
 source iterm2/setup.zsh
 
