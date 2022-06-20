@@ -17,6 +17,8 @@ alias proc-listening-at='f() { lsof -i -P | grep LISTEN | grep $1 };f'
 
 source $(brew --prefix nvm)/nvm.sh
 
+path+="$(python3 -m site --user-base)/bin"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
