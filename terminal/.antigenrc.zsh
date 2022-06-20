@@ -1,3 +1,5 @@
+export ZSH_CACHE_DIR=$HOME/.zsh_cache
+
 source /usr/local/share/antigen/antigen.zsh
 
 antigen bundle robbyrussell/oh-my-zsh plugins/autojump
